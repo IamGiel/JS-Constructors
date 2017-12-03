@@ -30,7 +30,8 @@ function DigitalPai(hungry, sleepy, bored, age) {
      this.bored = false; 
      this.hungry = true;
      increaseAge();
-     console.log("No way Im not tired");
+   
+     console.log("-----------------\nNo way Im not tired");
     }
   };
   this.increaseAge = function() {
